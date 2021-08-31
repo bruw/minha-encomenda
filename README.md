@@ -2,8 +2,7 @@
 
 App para rastreamento de encomendas transportadas pelos correios. 
 
-Desenvolvido na disciplina de programação para dispositivos móveis (PDM) do curso de TSI da UTFPR -
-Universidade Tecnológica Federal do Paraná - Brasil.
+Desenvolvido na disciplina de programação para dispositivos móveis (PDM) do curso de TSI da UTFPR - Guarapuava
 
 ## Tecnologias
 
