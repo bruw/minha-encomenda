@@ -20,6 +20,10 @@ Desenvolvido na disciplina de programação para dispositivos móveis (PDM) do c
 
 1.0.0 - Release de 31/08/2021
 
-![tela-rastreio](https://user-images.githubusercontent.com/48563663/131578002-4f43805a-9c7d-4df9-8e47-1b321582680a.jpeg)
+div align="center"
+img src="
+![tela-rastreio](https://user-images.githubusercontent.com/48563663/131578002-4f43805a-9c7d-4df9-8e47-1b321582680a.jpeg)" width="0px" /
+/div
+
 
 
