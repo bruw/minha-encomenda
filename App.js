@@ -1,21 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'react-native';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { ActionSheetProvider, connectActionSheet} from '@expo/react-native-action-sheet';
+import { Provider } from 'react-native-paper';
 
-export default function App() {
+import Routes from './src/routes';
+import { theme } from './src/themes';
+
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider theme={theme}>
+        <ActionSheetProvider>
+          <>
+            <StatusBar backgroundColor={'#000000'}/>
+            <Routes />
+          </>
+        </ActionSheetProvider> 
+    </Provider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const ConnectedApp = connectActionSheet(App)
+export default ConnectedApp;
