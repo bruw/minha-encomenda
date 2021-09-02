@@ -44,7 +44,7 @@ export default function RequestAPI(props) {
     const savePackageOrder = () => {
         Order.create({
             surname: props.surname, 
-            tracking_code: props.code,
+            tracking_code: props.code.toUpperCase(),
             last_situation: eventSituation,
             date: eventDate,
             hour: eventHour, 
@@ -72,8 +72,8 @@ export default function RequestAPI(props) {
             
         }else{
             showModal();
-
-            api.get(props.code, {cancelToken: source.token })
+            
+            api.get(props.code.toUpperCase(), {cancelToken: source.token })
                 .then((response) => {
                     packageOrder = response.data;
                 })

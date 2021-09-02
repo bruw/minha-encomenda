@@ -27,7 +27,7 @@
       "package": "com.brunowogt.minha_encomenda"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     }
   }
 }
