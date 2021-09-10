@@ -6,15 +6,16 @@ Desenvolvido na disciplina de programação para dispositivos móveis (PDM) do c
 
 ## Tecnologias
 
++ React Native
++ Expo
 + Node.js
 + Yarn 
-+ Expo
-+ React Native
++ SQLite
 
 ## Ferramentas
 
 + Visual Studio Code
-+ SQLite
+
 
 ## Versão Corrente
 
