@@ -6,7 +6,7 @@ Desenvolvido na disciplina de programação para dispositivos móveis (PDM) do c
 
 ## Tecnologias
 
-+ Expo Framework
++ Expo Framework (react native)
 + Node.js
 + Yarn 
 + SQLite
